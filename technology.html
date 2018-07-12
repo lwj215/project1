@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>technology</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/technology.css"/>
+		<script src="jquery/jquery-1.9.1.min.js"></script>
+		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="tch-myMap">
+			<div class="dt-ms">
+				<button class="close-map">关闭地图</button>
+			</div>
+			<div id="myMap-main"></div>
+		</div>
+		<div class="indexTop">
+			<div class="warp" style="width:960px">
+					<ul class="ul-topL">
+						<li>
+							<span class="topbar-city" >深圳</span>
+							<a class="topbar-citychange-trigger" href="#">[切换城市]</a>
+						</li>
+						<li class="last"><a href="http://bang.360.cn/" class="item">同城帮首页</a></li>
+					</ul>
+					
+					<ul class="ul-topR">
+						<li><a href="#" class="user-login item" style="border-left: none;">登录</a></li>
+						<li><a href="#" class="user-reg item">注册</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a>客服电话：4000-399-360</a></li>
+						<li><a>客户服务</a></li>
+						<li><a href="#">论坛</a></li>
+						<li><a style="color:#F00;href="#">投诉建议</a></li>
+					</ul>
+			</div>
+		</div>
+		<!--以上是页面头部-->
+		<!--以下是搜索框div-->
+		<div class="tch-top">
+			<div class="tch-top-nav warpa">
+				<span class="tch-logo-img">
+					<img src="images/tch-top-logo.png" />
+				</span>
+				<div class="tch-seaches">
+					<ul class="tch-seaches-ul">
+						<li><a href="#">全部</a></li>
+						<li><a href="#">台式机</a></li>
+						<li><a href="#">笔记本</a></li>
+						<li><a href="#">手机平板</a></li>
+						<li><a href="#">办公设备</a></li>
+						<li><a href="#">服务器</a></li>
+					</ul>
+					<div class="tch-seaches-form">
+						<form>
+							<input type="text" name="" id="oinput" placeholder="输入您的电脑/手机问题，为您找到最优质的维修商"/><button>搜索</button>
+							<div class="form-Ifo">
+								<ul class="form-Ul">
+									<li class="form-li"><span>1</span><a>电脑没声音，检测维修</a></li>
+									<li class="form-li"><span>2</span><a>路由器设置</a></li>
+									<li class="form-li"><span>3</span><a>系统安装</a></li>
+									<li class="form-li"><span>4</span><a>显示器花屏、暗屏、黑屏维修</a></li>
+									<li class="form-li"><span>5</span><a>线上数据恢复</a></li>
+									<li class="form-li"><span>6</span><a>数据硬盘丢失，文件恢复</a></li>
+									<li class="form-li"><span>7</span><a>手机系统重装</a></li>
+									<li class="form-li"><span>8</span><a>usb无法识别</a></li>
+								</ul>
+							</div>
+							<div class="form-jt"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--以上是搜索框div-->
+		<!--以下是商家信息-->
+		<div class="tch-bannar  warpa">
+			<div class="weidian">
+				<p>欢迎关注我的微店</p>
+				<div class="weidian-ewm">
+					<img src="https://mp.weixin.qq.com/cgi-bin/
+						showqrcode?ticket=gQHF7zoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL1NrTTN5WS1relRXMDZHSHUtbXR1AAIE/W9NVQMEAAAAAA=="/>
+				</div>
+				<div class="wd-dt" id="container"></div>
+				<p class="ckdt"><a href="#">查看大图</a></p>
+			</div>
+			<span class="tch-bannar-img">
+				<img src="images/tch-bannar-img.png" />
+			</span>
+			<div class="tch-bannar-main">
+				<div class="tch-content">
+					<h3>国为电脑科技</h3>
+					<div class="tch-rz">
+						<img src="images/360rz.png"/>
+					</div>
+					<div class="tch-to-talk">
+						<img src="images/tch-to-talk.png" />
+					</div>
+					<ul class="tch-content-ul">
+						<li>
+							<span class="tch-content-li1"></span>
+							分享
+						</li>
+						<li>
+							<span class="tch-content-li2"></span>
+							发送至手机
+						</li>
+						<li style="margin-right:0;">
+							<span class="tch-content-li3"></span>
+							举报
+						</li>
+					</ul>	
+				</div>
+				<div class="tch-cert">
+					<div class="tch-danbao-img"></div>
+					<span class="tch-cert-span1">360担保交易</span>
+					<div class="tch-refund-img" style="margin-left: 20px;"></div>
+					<span class="tch-cert-span1"> 无效退款</span>
+					<div class="tch-gader">店铺等级:
+						<span class="tch-cert-span2"></span>
+					</div>
+				</div>
+				<div class="tch-contact">
+					<label>联系人：</label>周武 
+					<label>电话：</label>
+					<a>075****191</a>点击查看完整号码 》
+					<span class="tch-contact-span">
+						<label>最近成交：</label>
+						34 次   评价：31条
+					</span>
+				</div>
+				<div class="tch-addr">
+					<label>商家地址：</label>
+					深圳龙华新区民治街道深圳北站附近民康路樟坑3区11...
+					<a href="#">地图</a>
+					<span class="tch-contact-span">
+						<label>营业时间：</label>
+						 09:00-23:00    周末正常营业 
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--以上是商家信息-->
+		
+		
+		<div class="warpa">
+			
+			<!--以下是信息栏-->
+			<div class="tch-shop-notice ">
+				<span class="tch-notice-span1"></span>
+				<strong>店铺公告：</strong>
+				<span class="tch-notice-span2">1.</span><a>全新组装电脑，京东价！大量二手电脑超低价 </a>
+				<span class="tch-notice-span2">2.</span><a>凡消费满百元免费领会员卡享受后期配件85折 </a>
+				<span class="tch-notice-span2">3.</span><a> 本店消费，可提供发票。电脑和手机配件、维修 </a>
+			</div>
+			
+			<!--以下是导航栏-->
+			<ul class="tch-menu-nav">
+				<li class="menu-active navLi">商品列表 </li>
+				<li class="navLi">交易评价 </li>
+				<li class="navLi">本店详情 </li>
+				<li class="navLi">服务保障 </li>
+				<li class="tch-menu-search">
+					<input  type="text" placeholder="搜索本店服务"><button>搜索</button>
+				</li>
+			</ul>
+			
+			<!--以下是全部商品列表-->
+			<ul class="tch-totle-ul">
+				<li><a href=""></a>全部(51)</li>
+				<li><a href=""></a>台式机(8)</li>
+				<li><a href=""></a>笔记本(13)</li>
+				<li><a href=""></a>手机平板(9)</li>
+				<li><a href=""></a>办公设备(4)</li>
+				<li><a href=""></a>数据恢复(5)</li>
+				<li><a href=""></a>企业服务(1)</li>
+				<li><a href=""></a>其它(11)</li>
+			</ul>
+			
+			<!--以下是信息清单-->
+			<div class="shop-lists  contents">
+			<div id="tpm"></div>
+		<script type="text/template" id="tpms">
+			<% for(var x in product){	%>
+				<div class="tch-ifo">
+				<div class="tch-serleft-cont">
+					<span class="tch-totle-img">
+						<img src=<%= product[x].product_img %> />
+					</span>
+					<h3><a> <%= product[x].product_name %> </a></h3>
+					<div class="tch-totle-main">
+						<div class="tch-totle-mainL">
+							<p>
+								<b>服务内容：</b><%= product[x].service_desc1 %>
+							</p>
+						</div>
+						<div class="tch-pic-price">
+							￥<span><%= product[x].product_price %></span>
+						</div>
+						
+					</div>
+				</div>
+				<button class="tch-ifo-btn">购买立即</button>
+			</div>
+			<% } %>
+		</script>
+			
+			
+			<div class="shop-list-checkbox  tch-list-checkbox" id="che-s">
+						<span class="shop-checkbox-pre" style="width:55px;display: none;"><上一页 </span>
+						<span class="shop-fri checkbox-num">1</span>
+						<span class="checkbox-num">2</span>
+						<span class="shop-checkbox-nex" style="width:55px">下一页></span>
+			</div>
+			</div>
+			<!--以上是信息清单-->
+			
+			<!--以下是用户评价信息栏-->
+			<div class="tch-yhpj contents">
+				<div class="yhpj-tit">用户评价</div>
+				<ul class="tch-pj-ul">
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li>
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+					
+					<li style="border-bottom: none;">
+						<span class="yonghu-tx-img">
+							<img src="images/yonghu-tx-img.png"/>
+						</span>
+						<div class="yhpj-hd">
+							<span class="yhpj-xj"></span>5分
+							<span class="yhpj-no">订单号：150321112******2127</span>
+						</div>
+						<p>问题得到很好的解决，赞！&nbsp;服务很给力很专业！</p>
+						<div class="yhpj-hd">
+							<span class="date">2015-02-01 22:26:15</span>
+							<span>|</span>
+							<span>【29.9元清灰活动】笔记本除尘清洁保养</span>
+						</div>
+					</li>
+				</ul>
+				
+				<div class="shop-list-checkbox  tch-list-checkbox" style="margin-top:20px;">
+						<span class="shop-checkbox-pre" style="width:55px">《 上一页</span>
+						<span>1</span>
+						<span>2</span>
+						<span>3</span>
+						<span class="shop-checkbox-nex" style="width:55px">上一页 》</span>
+				</div>
+			</div>
+			<!--以上是用户评价框架-->
+			
+			<!--以下是店铺详情-->
+			<div class="tch-yhpj contents" style="height: 210px;">
+				<div class="yhpj-tit">店铺详情</div>
+				<table class="tch-table">
+					<tr>
+						<td class="tch-td-comment tch-td1">主营 &nbsp;</td>
+						<td>笔记本台式机显示器精修、电脑周边配件，手机周边配件</td>
+					</tr>
+					<tr>
+						<td class="tch-td-comment tch-td2">地址 &nbsp;</td>
+						<td>深圳龙华新区民治街道深圳北站附近民康路樟坑3区112栋1楼 (查看地图)</td>
+					</tr>
+					<tr>
+						<td class="tch-td-comment tch-td3">公告 &nbsp;</td>
+						<td>
+							<p>1.全新组装电脑，京东价！大量二手电脑超低价</p>
+							<p>2.凡消费满百元免费领会员卡享受后期配件85折</p>
+							<p>3.本店消费，可提供发票。电脑和手机配件、维修</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<!--以下是服务保障-->
+			<div class="tch-yhpj contents" style="height: 487px;margin-bottom: 20px;">
+				<div class="yhpj-tit">服务保障</div>
+				<div class="tch-fwbz-img">
+					<img src="images/tch-fwbz-img.png" />
+				</div>
+			</div>
+		</div>
+
+		<!--以下是页面页脚-->
+		<div class="index-foot clear">
+		 <div class="footWarp">
+			<div class="foot-nav">
+				<ul class="foot-nav-ul">
+					<li>
+						<span class="foot-nav-li1"></span>
+						<div class="foot-nav-liR">
+							<h3>购物指南</h3>
+							<p>购物流程</p>
+							<p>用户注册</p>
+							<p>帮助文档</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li2"></span>
+						<div class="foot-nav-liR">
+							<h3>支付方式</h3>
+							<p>在线支付</p>
+							<p>当面付款</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li3"></span>
+						<div class="foot-nav-liR">
+							<h3>售后服务</h3>
+							<p>投诉建议</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li4"></span>
+						<div class="foot-nav-liR">
+							<h3>特色保障</h3>
+							<p>360担保支付</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li5"></span>
+						<div class="foot-nav-liR">
+							<h3>商家合作</h3>
+							<p><a href="#">加盟同城帮</a></p>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="foot-bottom">
+				<p style="padding:20px 10px 0 10px">客服电话：4000-399-360
+					&nbsp;&nbsp;&nbsp;&nbsp;投诉建议&nbsp;&nbsp;
+					<a>网站地图</a>
+				</p>
+				<p>Copyright © 2005-2016&nbsp;360.CN&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;360安全中心</p>
+				<p><a>京ICP备08010314号-19</a>&nbsp;&nbsp;&nbsp;&nbsp;京公网安备110000000006号</p>
+			</div>
+			
+		</div>		
+		</div>
+		<script src="js/technology.js"></script>
+		<script src="http://webapi.amap.com/maps?v=1.3&key=971af7e5f044628174e44adae9a64917&callback=init"></script>
+		<script src="http://webapi.amap.com/maps?v=1.3&key=971af7e5f044628174e44adae9a64917&callback=inits"></script>
+	</body>
+</html>

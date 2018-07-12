@@ -1,0 +1,92 @@
+.maintain-bannar{
+	width: 100%;
+	height:280px;
+	overflow: hidden;
+}
+.maintain-bannar img{
+	width: 100%;
+	float: left;
+}
+.maintain-fuxm{
+	width: 100%;
+	height: 124px;
+	margin:20px 0;
+}
+.maintain-fuxm li{
+	width: 200px;
+	height:124px;
+	float: left;
+}
+	.maintain-fuxm span{
+		display: block;
+		float: left;
+		margin-left:50px;
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+	}
+	.maintain-fuxm-span1{
+		background: url(../images/maintain-fw-logo.png) no-repeat ;
+	}
+	.maintain-fuxm-span2{
+		background: url(../images/maintain-fw-logo.png) no-repeat -100px 0;
+	}
+	.maintain-fuxm-span3{
+		background: url(../images/maintain-fw-logo.png) no-repeat -500px 0;
+	}
+	.maintain-fuxm-span4{
+		background: url(../images/maintain-fw-logo.png) no-repeat -200px 0;
+	}
+	.maintain-fuxm-span5{
+		background: url(../images/maintain-fw-logo.png) no-repeat -300px 0;
+	}
+	.maintain-fuxm-span6{
+		background: url(../images/maintain-fw-logo.png) no-repeat -400px 0;
+	}
+	.maintain-fuxm-p{
+		width: 200px;
+		font-size: 16px;
+		font-weight: bold;
+		height: 24px;
+		line-height: 24px;
+		text-align: center;
+		clear: both;
+		float: left;
+	}
+	.maintain-xql{
+		width: 100%;
+		background: #F5F5F5;
+	    border-bottom: 1px solid #E3E3E3;
+	    border-top: 1px solid #E3E3E3;
+	    margin-bottom: 20px;
+	    height: 166px;	
+	    overflow: hidden;
+	}
+	.maintain-xql-ul{
+		margin-top: 24px;
+	}
+	.maintain-xql-ul li{
+		background: #fff;
+	    border: 1px solid #E0E0E0;
+	    border-radius: 6px;
+	    color: #333;
+	    cursor: pointer;
+	    display: block;
+	    float: left;
+	    height: 40px;
+	    line-height: 40px;
+	    margin: 8px;
+	    text-align: center;
+	    width: 222px;
+	}
+	.maintain-xql-ul li a{
+		font-size: 16px;
+		font-family: "微软雅黑";
+	}
+
+	.maintain-xql-ul li:hover{
+		border: 1px solid #39f;
+	}
+	.maintain-fuxm-p:hover{
+		color:#39f
+	}

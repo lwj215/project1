@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>maintain</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/maintain.css" />
+		<script src="jquery/jquery-1.9.1.min.js"></script>
+		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="indexTop">
+			<div class="warp">
+					<ul class="ul-topL">
+						<li>
+							<span class="topbar-city" >深圳</span>
+							<a class="topbar-citychange-trigger" href="#">[切换城市]</a>
+						</li>
+						<li class="last"><a href="http://bang.360.cn/" class="item">同城帮首页</a></li>
+					</ul>
+					
+					<ul class="ul-topR">
+						<li><a href="#" class="user-login item" style="border-left: none;">登录</a></li>
+						<li><a href="#" class="user-reg item">注册</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a>客服电话：4000-399-360</a></li>
+						<li><a>客户服务</a></li>
+						<li><a href="#">论坛</a></li>
+						<li><a style="color:#F00;href="#">投诉建议</a></li>
+					</ul>
+			</div>
+		</div>
+		<!--以上是页头-->
+		<!--以下是bannar-->
+		<div class="maintain-bannar">
+			<img src="images/dnwx-img.png"/>
+		</div>
+		
+		<!--以下是服务项目-->
+		<div class="maintain-fuxm">
+			<ul class="warp">
+				<li>
+					<span class="maintain-fuxm-span1"></span>
+					<div class="maintain-fuxm-p">
+						重装系统
+					</div>
+				</li>
+				<li>
+					<span class="maintain-fuxm-span2"></span>
+					<div class="maintain-fuxm-p">
+						电脑清灰
+					</div>
+				</li>
+				<li>
+					<span class="maintain-fuxm-span3"></span>
+					<div class="maintain-fuxm-p">
+						VR移机/安装
+					</div>
+				</li>
+				<li>
+					<span class="maintain-fuxm-span4"></span>
+					<div class="maintain-fuxm-p">
+						数据恢复
+					</div>
+				</li>
+				<li>
+					<span class="maintain-fuxm-span5"></span>
+					<div class="maintain-fuxm-p">
+						系统故障修复
+					</div>
+				</li>
+				<li>
+					<span class="maintain-fuxm-span6"></span>
+					<div class="maintain-fuxm-p">
+						驱动安装
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--以上是服务项目-->
+		<!--以下服务详情类-->
+		<div class="maintain-xql">
+			<div class="warp">
+				<ul class="maintain-xql-ul">
+					<li><a> 游戏加速  </a></li>
+					<li><a> 开机加速  </a></li>
+					<li><a> 网速优化  </a></li>
+					<li><a> 蓝屏死机  </a></li>
+					<li><a> 电脑没声音  </a></li>
+					<li><a> 路由器调试  </a></li>
+					<li><a> 无法上网  </a></li>
+					<li><a> 家庭局域网  </a></li>
+					<li><a> 更换风扇  </a></li>
+					<li><a> 病毒查杀  </a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div class="warp searches">
+			<div class="sel-city ">深圳
+			</div>
+			<div class="sel-quxian">选择区县</div>
+			<div class="addr-search-box">
+				<form action="">
+					<input type="text" name="" class="addr-ipt" />
+					<button class="addr-btn" type="submit">搜索</button>
+				</form>
+				
+			</div>
+		</div>
+		
+		<div class="warp shop clear">
+			<div class="shop-list">
+				<div class="shop-list-filter">
+					<ul class="sort-type">
+						<li class="active-li">默认排序</li>
+						<li>按成交量</li>
+						<li>按人气</li>
+					</ul>
+					
+					<div class="filter-check">
+						<label>
+							<input class="chkbox" type="checkbox" name="is_bzj">先行赔付
+						</label>
+					</div>
+					
+					<div class="shop-map">
+						<button>地图模式</button>
+					</div>
+				</div>
+				
+			<div id="shop-items"></div>
+			<script type="text/template" id="tpl">
+			<% for(var k in shop_data){	%>
+				<div class="list-item">
+					<img src=<%= shop_data[k].shop_ico %> />
+					<div class="cont">
+						<h3>
+							<a href="#"><%= shop_data[k].shop_name %></a>
+							<div class="shop-grade">
+								店铺等级：<a><%= shop_data[k].shop_score %></a>
+							</div>
+						</h3>
+						<div class="desc">
+							<%= shop_data[k].shop_desc %>
+						</div>
+						<div class="addr">
+							<%= shop_data[k].addr %>
+						</div>
+						<div class="shop-score">
+							<div class="shop-item-pf">
+									<img src="images/shop-logo2.png" />
+								先行赔付
+							</div>
+							<div class="shop-rz">
+									<img src="images/shop-logo1.png" />
+								同城帮认证</div>
+							<div class="shop-item-rq">
+								<span>人气：<a><%= shop_data[k].shop_visit %></a>次浏览</span>
+							</div>
+						</div>
+						<button class="shop-btn">进入店铺</button>
+					</div>
+				</div>
+				<% } %>
+			</script>
+				
+				
+				<div class="shop-list-checkbox">
+						<span class="checkbox-num  start" style="display: none;">首页</span>
+						<span class="shop-checkbox-pre" style="width:102px;display: none;">《上一页</span>
+						<span class="checkbox-num che-active">1</span>
+						<span class="checkbox-num">2</span>
+						<span class="checkbox-num">3</span>						
+						<span class="shop-checkbox-nex  next" style="width:102px">下一页》</span>
+						<span class="checkbox-num  last">尾页</span>
+				</div>
+			</div>
+			
+			
+			<div class="haoping-list">
+				<h3>商家好评榜</h3>
+				<div class="cont-list">
+					<ul>
+						<li>
+							<div class="cont-list-num active-num">
+								1
+							</div>
+							<img src="images/haoping-img1.png" />
+							<p class="cont-list-tit">能帮科技</p>
+							<p>1121条评论</p>
+						</li>
+						
+						<li>
+							<div class="cont-list-num active-num">
+								2
+							</div>
+							<img src="images/haoping-img1.png" />
+							<p class="cont-list-tit">能帮科技</p>
+							<p>1121条评论</p>
+						</li>
+						
+						<li>
+							<div class="cont-list-num active-num">
+								3
+							</div>
+							<img src="images/haoping-img1.png" />
+							<p class="cont-list-tit">能帮科技</p>
+							<p>1121条评论</p>
+						</li>
+						
+						<li>
+							<div class="cont-list-num">
+								4
+							</div>
+							<img src="images/haoping-img1.png" />
+							<p class="cont-list-tit">能帮科技</p>
+							<p>1121条评论</p>
+						</li>
+						
+						<li>
+							<div class="cont-list-num">
+								5
+							</div>
+							<img src="images/haoping-img1.png" />
+							<p class="cont-list-tit">能帮科技</p>
+							<p>1121条评论</p>
+						</li>
+						
+						<li>
+							<div class="cont-list-num">
+								6
+							</div>
+							<img src="images/haoping-img1.png" />
+							<p class="cont-list-tit">能帮科技</p>
+							<p>1121条评论</p>
+						</li>
+						
+						<li>
+							<div class="cont-list-num">
+								7
+							</div>
+							<img src="images/haoping-img1.png" />
+							<p class="cont-list-tit">能帮科技</p>
+							<p>1121条评论</p>
+						</li>
+					</ul>
+				</div>
+			</div>		
+		</div>
+		
+		<div class="index-foot clear">
+		 <div class="footWarp">
+			<div class="foot-nav">
+				<ul class="foot-nav-ul">
+					<li>
+						<span class="foot-nav-li1"></span>
+						<div class="foot-nav-liR">
+							<h3>购物指南</h3>
+							<p>购物流程</p>
+							<p>用户注册</p>
+							<p>帮助文档</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li2"></span>
+						<div class="foot-nav-liR">
+							<h3>支付方式</h3>
+							<p>在线支付</p>
+							<p>当面付款</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li3"></span>
+						<div class="foot-nav-liR">
+							<h3>售后服务</h3>
+							<p>投诉建议</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li4"></span>
+						<div class="foot-nav-liR">
+							<h3>特色保障</h3>
+							<p>360担保支付</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li5"></span>
+						<div class="foot-nav-liR">
+							<h3>商家合作</h3>
+							<p><a href="#">加盟同城帮</a></p>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="foot-bottom">
+				<p style="padding:20px 10px 0 10px">客服电话：4000-399-360
+					&nbsp;&nbsp;&nbsp;&nbsp;投诉建议&nbsp;&nbsp;
+					<a>网站地图</a>
+				</p>
+				<p>Copyright © 2005-2016&nbsp;360.CN&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;360安全中心</p>
+				<p><a>京ICP备08010314号-19</a>&nbsp;&nbsp;&nbsp;&nbsp;京公网安备110000000006号</p>
+			</div>
+			
+		</div>		
+		</div>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

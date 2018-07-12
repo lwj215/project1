@@ -1,0 +1,234 @@
+.torder-logo-img{
+	margin:10px 0 0 60px ;
+}
+.torder-gwc-tit{
+	padding: 10px 0 0 0;
+}
+.torder-tit-ul{
+	height: 24px;
+	line-height: 24px;
+}
+.torder-tit-ul li{
+	float: left;
+	width: 240px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+.torder-qr{
+	height: 20px;
+	padding: 20px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.torder-main{
+	background: #f9f9f9;
+    border-radius: 3px;
+    border: solid 1px #D9DCDA;
+    margin-top: 10px;
+    overflow: auto;
+    padding-bottom: 25px;
+    width: 958px;
+    margin-bottom: 20px;
+}
+	.torder-table{
+		border-collapse: collapse;
+	    border-spacing: 0;
+	    color: #666;
+	    font-size: 12px;
+	    width: 100%;
+	}
+		.tor-th-tr td{
+			
+			border-bottom: solid 4px #bbeeae;
+			padding-right:3px;
+		    color: #666;
+		    height: 35px;
+		    line-height: 35px;
+		    overflow: hidden;
+		    text-align: center;    
+		}
+		
+		.main-tr{
+			background: #fff;
+			width: 100%;
+			border-bottom: dashed 1px #E4E4E4;
+			
+		}
+		del{
+			text-decoration: line-through;
+		}
+			.firstpic{
+				padding: 10px;
+    			text-align: left;
+			}
+			.pic-r-desc{
+				    float: left;
+				    margin-left: 10px;
+				    width: 190px;
+			}
+				.pic-r-tit{
+					    height: 40px;
+					    overflow: hidden;
+					    padding-top: 5px;
+				}
+				.firstpic-img{
+					width: 70px;
+					height: 70px;
+					float: left;
+					margin:0 10px;
+				}
+		.torder-cath{
+			    color: rgb(255, 102, 0);
+    			font-family: "微软雅黑";
+    			font-size: 18px;
+    			text-align: center;
+    			width: 100%;
+    			font-weight: bold;
+		}
+		.pay-online-tip{
+			background: #FFF5E1;
+		    border: 1px solid #FFE5B9;
+		    color: #F60;
+		    padding: 2px 8px;
+		    text-align: center;
+		    margin-left: 20px;
+		}
+		.torder-ta-btn{
+			background: url(https://p.ssl.qhmsg.com/t01df123c16a291936c.png) no-repeat;
+		    height: 44px;
+		    width: 167px;
+		    vertical-align: middle;
+		    margin-top: 30px;
+}
+		.promise-link{
+			    color: red;
+			    float: right;
+			    font-family:"微软雅黑";
+			    margin-right: 25px;
+			    margin-top: 40px;
+			    text-decoration: underline;
+		        font-size: 12px;
+    			font-weight: 400;
+		}
+		.torder-ta-inps input{
+			margin: 20px 0 20px 20px;
+			vertical-align: middle;
+			position: relative;
+		}
+		.torder-phone{
+			width: 140px;
+			text-align: right;
+			padding-right: 10px;
+			height: 36px;
+			line-height: 36px;
+		}
+		.torder-phone-inp{
+			width: 413px;
+			height: 30px;
+			vertical-align: middle;
+			font-size: 14px;
+			font-family: "微软雅黑";
+			text-indent: 10px;
+		}
+		.torder-miss{
+			height: 24px;
+			line-height: 24px;
+			padding: 10px 0;
+			color: #999;
+		}
+		.pay-fs{
+			text-align: right;
+			padding:40px 0;
+			padding-right: 10px;
+		}
+		.Jian-ts{
+			font-size: 12px;
+			color: red;
+			position: absolute;
+			top: 100px;
+			display: none;
+		}
+		.border{
+				display: block;
+				float: left;
+			    border: solid 1px #CECECE;
+			    height: 62px;
+			    width: 210px;
+			    position: relative;
+		}
+		.border-active{
+			border: 2px solid #2FAF14;
+		}
+		.border p{
+			text-indent: 10px;
+			color: rgb(153, 153, 153);
+		}
+		.dmfk{
+			margin-left: 20px;
+		}
+		.dmfk h3{
+			height: 62px;
+			line-height: 62px;
+			font-size: 16px;
+			font-family: "微软雅黑";
+			font-weight: normal;
+			text-align: center;
+			margin:0 auto;
+		}
+		.pft14{
+			text-align: 10px;
+			height: 36px;
+			line-height: 36px;
+			font-size: 16px;
+			font-family: "微软雅黑";
+			color: rgb(102, 102, 102);
+			
+		}
+		.pft13{
+			font-size: 12px;
+			height: 24px;
+			line-height: 24px;
+		}
+		.bao{
+			background: url(https://p.ssl.qhmsg.com/t01b84fbccd823c8486.png) no-repeat 0 1px;
+		    border: none;
+		    color: #2FAF14;
+		    height: 29px;
+		    left: 120px;
+		    line-height: 35px;
+		    padding: 0 0 0 30px;
+		    position: absolute;
+		    top: 1px;
+		    width: 50px;
+		}
+			
+		#Jian,#Ja{
+			font-size: 14px;
+		    border: none;
+		    cursor: pointer;
+		    height: 20px;
+		    margin: 3px 0 0 4px;
+		    width: 20px;
+		    border-radius: 3px;
+		}
+		
+		#Mnum{
+			height: 20px;
+			text-align: center;
+			font-size: 16px;
+		}
+		#dj{
+			font-size: 14px;
+			font-family: "微软雅黑";
+		}
+			#phoneNum{
+				position: absolute;
+				left: 590px;
+				top: 155px;
+				font-size: 12px;
+				color: red;
+				display: none;
+			}

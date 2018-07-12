@@ -1,0 +1,570 @@
+.tch-top{
+	border-bottom: 3px solid #4bac20;
+}
+.warpa{
+	width:960px;
+	margin: 0 auto;
+	position: relative;
+}
+.tch-top-nav{
+	height: 97px;
+}
+
+		.tch-top-nav span{
+			width: 210px;
+			height: 68px;
+			float: left;
+			padding-top: 20px;
+		}
+			.tch-top-nav span img{
+				width: 221px;
+			}
+	.tch-seaches{
+		width: 683px;
+		height: 79px;
+		float: right;
+		margin-right: 5px;
+		padding: 18px 0 0 50px;
+		background: url(../images/tch-nav-back.png) no-repeat right bottom;
+	}
+		.tch-seaches-ul{
+			float:left;
+			width:683px;
+			height: 25px;
+		}
+			.tch-seaches-ul>li{
+				float: left;
+				width: 68px;
+				text-align: center;
+				line-height: 25px;
+				height: 25px;
+			}
+.tch-seaches-form{
+	width:566px;
+	height: 43px;
+	position: relative;
+
+}
+		.tch-seaches-form input{
+		    border: 2px solid #185;
+		    vertical-align: middle;
+		    font-size: 14px;
+		    height: 33px;
+		    padding-left: 5px;
+		    padding-right: 3px;
+		    width: 476px;
+		    color:#000;
+}
+		.form-Ifo{
+			position: absolute;
+			width: 484px;
+			border:1px solid #185;
+			background: #fff;
+			z-index: 99;
+			display: none;
+		}
+		.form-jt{
+			position: absolute;
+			left:450px;
+			top: 32px;
+			width: 20px;
+			height: 20px;
+			overflow: hidden;
+			background:url(https://p.ssl.qhmsg.com/t01df6e6f81f475df56.png) no-repeat;
+		}
+		
+		.form-Ifo ul li{
+			height: 20px;
+			font-size: 14px;
+			color: #333;
+			padding: 4px 4px 4px 8px;
+		}
+		.form-Ifo span{
+			margin: 0;
+			padding: 0;
+			display: block;
+			text-align: center;
+			width:18px;
+			height: 18px;
+			line-height: 18px;
+			color: #fff;
+			font-weight:bold;
+			float: left;
+			background: orange;
+			border-radius: 3px;
+			margin-right:5px;
+			
+		}
+		.form-Ifo ul li:hover{
+			background: #999;
+		}
+		.tch-seaches-form button{
+			background: #185;
+		    border: none;
+		    cursor: pointer;
+		    height: 37px;
+		    width: 78px;
+		    color: #fff;
+		    font-size: 18px;
+		    vertical-align: middle;
+			}	
+    
+.tch-bannar{
+	background: url(../images/tch-color1.jpg) repeat-x;
+	border: 1px solid #E9F0F5;
+	height: 124px;
+	padding: 20px 0;
+}	
+	.tch-bannar-img{
+		float: left;
+		height: 110px;
+		width: 110px;
+		padding: 7px 20px;
+	}
+	.weidian{
+		width: 180px;
+		height: 420px;
+		position: absolute;
+		right: 0;
+		top: 220px;
+		z-index: 98;
+	}
+	.weidian p{
+		color: #666;
+	    font-size: 14px;
+	    text-align: center;
+	    height: 20px;
+	    line-height: 20px;
+	    margin-top: 10px;
+	    width: 100%;
+	}
+		.weidian-ewm{
+			padding: 0 18px;
+			overflow: hidden;
+		}
+		.weidian-ewm img{
+			height: 144px;
+		}
+		.wd-dt{
+			width: 100%;
+			height: 188px;
+			background: darkgray;
+			margin-top: 10px;
+		}
+		.tch-bannar-img img{
+			height: 110px;
+			width: 110px;
+			
+		}
+		.tch-bannar-main{
+			width: 770px;
+			height: 100%;
+			float: right;
+			margin-right: 20px;
+			
+		}
+			.tch-content{
+				height: 28px;
+				width: 100%;
+			}
+			.tch-content h3{
+				height: 28px;
+				line-height: 24px;
+				font-size: 16px;
+				float: left;
+			}
+				.tch-rz{
+					height:20px;
+					line-height: 20px;
+					width: 56px;
+					overflow: hidden;
+					display: inline-block;
+					margin: 0 5px;
+				}
+				.tch-rz>img{
+					height:16px;
+					vertical-align: middle;
+				}
+				.tch-to-talk{
+					height: 18px;
+					line-height: 18px;
+					width: 18px;
+					display: inline-block;
+					overflow: hidden;
+					margin-left: -10px;
+				}
+				.tch-to-talk img{
+					height: 18px;
+					margin-left:-20px ;
+					vertical-align: middle;
+				}
+				.tch-content-ul{
+					height: 28px;
+					width: 240px;
+					float: right;
+				}
+				.tch-content-ul li{
+					float: left;
+					height: 26px;
+					line-height: 26px;
+					margin-right: 10px;
+					text-align: right;
+				}
+				.tch-content-ul li span{
+					display: block;
+					float: left;
+					width: 26px;
+					height: 26px;
+					overflow: hidden;
+					margin-right: 5px;
+				}
+				.tch-content-li1{
+					background: url(../images/tch-content-img.png) no-repeat 0 0;
+				}
+				.tch-content-li2{
+					background: url(../images/tch-content-img.png) no-repeat -64px 0;
+				}
+				.tch-content-li3{
+					background: url(../images/tch-content-img.png) no-repeat -32px 0;
+				}
+				
+	.tch-cert{
+		height: 28px;
+		width: 100%;
+		color: #999;
+		line-height: 28px;
+	}	
+		.tch-cert-span1{
+			float: left;
+		}
+		.tch-danbao-img,.tch-refund-img{
+			height: 20px;
+			width: 20px;
+			margin-top:4px;
+			float: left;
+			display: inline-block;
+			vertical-align: middle;
+			overflow: hidden;
+			background: url(../images/tch-cert.png) no-repeat -2px -231px;
+		}	
+		
+			.tch-danbao-img{
+				background: url(../images/tch-cert.png) no-repeat -2px -231px;
+			}
+			.tch-refund-img{
+				background: url(../images/tch-cert.png) no-repeat 1px 0px;
+			}
+			
+			.tch-gader{
+				width: 250px;
+				height: 28px;
+				float: right;
+				text-align: right;
+			}
+					.tch-cert-span2{
+						display: block;
+						float: right;
+						width: 16px;
+						height: 17px;
+						margin-top: 6px;
+						background: url(../images/tch-cert-garder.png) no-repeat 0 -38px;
+					}
+			.tch-contact{
+				height: 28px;
+				line-height: 28px;
+				width: 100%;
+			}
+			.tch-contact-span{
+				display: block;
+				float: right;
+				text-align: right;
+				height: 28px;
+				line-height: 28px;
+			}
+		.tch-addr{
+			height: 28px;
+			line-height: 28px;
+		}
+		
+		.tch-shop-notice{
+			    border: 1px solid #F0F0F0;
+			    color: #666;
+			    height: 34px;
+			    line-height: 34px;
+			    margin: 14px 0;
+			    padding: 0 0 0 20px;
+		}
+		.tch-notice-span1{
+			height: 16px;
+			width: 20px;
+			display: block;
+			float: left;
+			overflow: hidden;
+			margin: 9px 10px 0 0;
+			background: url(../images/tch-content-img.png) no-repeat -100px 0;
+		}
+		
+		.tch-shop-notice>a{
+			color: red;
+			white-space: nowrap;
+			font-size: 12px;
+		}
+		.tch-notice-span2{
+			margin-left: 10px;
+		}
+		.tch-menu-nav{
+			width: 760px;
+			background: #fff url(https://p.ssl.qhmsg.com/t01303a0b54e6f68ddc.png) repeat-x 0 bottom;
+		    height: 40px;
+		    line-height: 40px;
+		    padding-bottom: 3px;
+		}
+			.tch-menu-nav li{
+				float: left;
+				/*color: #128422;*/
+			    cursor: default;
+			    font-weight: 700;
+			    font-size: 14px;
+			    height: 36px;
+			    line-height: 36px;
+			    padding:0 10px;
+			    margin:0 16px;
+			}
+				.shop-lists{
+					float: left;
+				}
+				.contents{
+					clear: both;
+					margin-bottom:20px;
+				}
+				.tch-menu-search{
+					width: 230px;
+					 height: 40px;
+		    		line-height: 40px;
+				}
+				.menu-active{
+					border-bottom:4px solid #128422; ;
+					color: #128422;
+				}
+				.tch-menu-search input{
+				    float: left;
+				   height: 22px;
+				    width: 135px;
+				    margin-top: 6px;
+				    border-radius: 2px 0 0 2px;
+				    background: url(https://p.ssl.qhmsg.com/t01ab3ae39d5dcb93f3.png) no-repeat;
+				    text-indent: 20px;
+				}
+				.tch-menu-search button{
+					    cursor: pointer;
+					    float: left;
+					    height: 24px;
+					    width: 47px;
+					    margin-top: 6px;
+					    border-radius: 0 2px 2px 0;
+				}
+				.tch-totle-ul{
+					width: 760px;
+					background: #F8FFF3;
+				    border: 1px solid #CEDDC5;
+				    height: 38px;
+				    line-height: 38px;
+				    margin: 10px 0 0 0;
+				}
+					.tch-totle-ul li{
+						float: left;
+						padding: 0 5px;
+						color: #2e74d3;
+						margin: 0 5px;
+					}
+	.tch-list-checkbox .shop-fri{
+		border: none;
+		color: #000;
+		font-weight: bold;
+	}				
+	.tch-ifo{
+		border-bottom: 1px solid #E8E6DF;
+		height: 70px;
+		width: 750px;
+		padding: 12px 0 10px 10px;
+		position: relative;
+		overflow: hidden;
+	}
+		.tch-serleft-cont{
+			float: left;
+    		width: 640px;
+    		height: 70px;
+		}
+			.tch-totle-img{
+				height: 70px;
+				width: 70px;
+				display: block;
+				float: left;
+				margin-right:10px;
+
+			}
+				.tch-totle-img img{
+					height: 70px;
+					float: left;
+
+				}
+				
+				.tch-totle-main{
+					float: left;
+					width: 540px;
+					height:45px;
+				}
+					.tch-serleft-cont h3{
+						float: left;
+						width: 540px;
+						font-size: 13px;
+    					height: 20px;
+    					line-height:20px;
+					}
+					.tch-totle-mainL{
+						width: 420px;
+						height: 100px;
+						float: left;
+					}
+					.tch-totle-mainL p{
+						line-height:22px ;
+						height: 22px;
+						color: #999;
+					}
+					.tch-pic-price{
+						float: left;
+						font-size:16px;
+						font-family: "微软雅黑";
+					}
+					
+					.tch-pic-price span{
+						color:#f60;
+						font-size:16px;
+						font-weight: bold;
+						font-family: "微软雅黑";
+					}
+					
+	.tch-ifo-btn{
+		position: absolute;
+		background: url(https://p.ssl.qhmsg.com/t01fd30fb25c0c2dbc1.png) no-repeat;
+	    color: #fff;
+	    display: block;
+	    font-size: 14px;
+	    font-weight: 700;
+	    height: 31px;
+	    line-height: 31px;
+	    width: 96px;
+	    right: 20px;
+	    top: 30px;
+	    border: none;
+	}
+	#tpm{
+		width: 760px;
+		float: left;
+	}
+	.tch-list-checkbox{
+		width: 760px;
+		font-size: 12px;
+		height: 26px;
+		z-index: 99;
+	}
+	.tch-list-checkbox span{
+		width: 26px;
+		height: 26px;
+		line-height: 26px;
+		color: #2e74d3;
+		border: 1px solid #d5d7c0;
+    	border-radius: 3px;
+    	font-size: 12px;
+    	font-weight: normal;
+	}
+	.tch-yhpj{
+		width: 760px;
+		height: 1190px;
+		margin-top: 10px;
+		border: 1px solid #DFDFE1;
+	}
+	.yhpj-tit{
+		color: #444;
+	    font-size: 14px;
+	    font-weight: 700;
+	    height: 34px;
+	    line-height: 34px;
+	    padding-left: 16px;
+	    background: #F7F7F7;
+    	border-bottom: 1px solid #DFDFE1;
+	}
+	.tch-pj-ul{
+		width: 760px;
+		color: #999;
+	}
+	.tch-pj-ul li{
+		width: 100%;
+		padding: 8px 0;
+		border-bottom: 1px dashed #ebebeb;
+		height: 92px;
+	}
+	.yonghu-tx-img{
+		width: 110px;
+		height: 84px;
+		display: block;
+		float: left;
+		padding: 8px 0 0 0;
+	}
+		.yonghu-tx-img img{
+			margin-left: 39px;
+			height: 32px;
+		}
+		.yhpj-hd{
+			width: 643px;
+			float: left;
+			height: 20px;
+			line-height: 20px;
+			padding-bottom: 5px;
+		}
+		.yhpj-xj{
+				width:80px;
+			    background: url(https://p.ssl.qhmsg.com/t010813d9ce48a42705.png) no-repeat -110px -20px;
+			    float: left;
+			    height:16px;
+			    margin-right: 5px;
+		}
+		.yhpj-no{
+			float: right;
+			
+		}
+				
+				.tch-pj-ul p{
+					height: 24px;
+					line-height: 24px;
+					color: #000;
+					float: left;
+				}
+				.yhpj-hd{
+					height: 26px;
+					line-height: 26px;
+				}
+		.tch-table{
+			background: #FCFCFC;
+			width: 758px;
+			height: 175px;
+			border-collapse: collapse;
+			text-indent: 10px;
+		}
+		
+		.tch-table p{
+			line-height: 24px;
+			color: red;
+		}
+		.tch-td-comment{
+			width: 100px;
+			background: #EDEDED;
+			text-align: right;
+		}
+		.tch-td1,.tch-td2{
+			border-bottom: 3px solid #fff;
+			height: 42px;
+		}
+		.tch-fwbz-img{
+			margin: 10px 40px 30px;
+		}

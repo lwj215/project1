@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>torder</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/technology.css"/>
+		<link rel="stylesheet" href="css/torder.css"/>
+		<script src="jquery/jquery-1.9.1.min.js"></script>
+	</head>
+	<body>
+		<div class="indexTop">
+			<div class="warp" style="width:960px">
+					<ul class="ul-topL">
+						<li class="last"><a href="http://bang.360.cn/" style="border-left: none;">同城帮首页</a></li>
+					</ul>
+					
+					<ul class="ul-topR">
+						<li><a href="#" class="user-login item" style="border-left: none;">登录</a></li>
+						<li><a href="#" class="user-reg item">注册</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a>客服电话：4000-399-360</a></li>
+						<li><a>客户服务</a></li>
+						<li><a href="#">论坛</a></li>
+						<li><a style="color:#F00;href="#">投诉建议</a></li>
+					</ul>
+			</div>
+		</div>
+		<!--以上是页面头部-->
+		<!--以下是搜索框div-->
+		<div class="tch-top">
+			<div class="tch-top-nav warpa">
+				<span class="tch-logo-img">
+					<img src="images/tch-top-logo.png" />
+				</span>
+				<div class="tch-seaches">
+					<img src="images/torder-logo-img.png" class="torder-logo-img"/>
+				</div>
+			</div>
+		</div>
+		<!--以上是搜索框div-->
+		
+		<!--以下是购物车头部-->
+		<div class="warpa torder-gwc-tit">
+			<img src="images/torder-take-img.png"/>
+		</div>
+		<ul class="warpa torder-tit-ul">
+			<li style="color:#FF9000;">告别胡乱加价</li>
+			<li>360担保</li>
+			<li>支持上门服务</li>
+			<li>支持退款</li>
+		</ul>
+		<div class="warpa torder-qr">
+			确认订单信息
+		</div>
+		
+		<!--以下是订单确认框-->
+		<div class="warpa torder-main" style="position: relative;">
+			<div id="phoneNum">请填写正确的11位手机号码</div>
+			<table class="torder-table">
+				<thead>
+					<tr class="tor-th-tr">
+						<td style="width: 312px;">
+							<span class="xiadancolor0">店铺：</span>
+							<a href="#">深圳市...</a>
+							<span class="xiadancolor0">卖家：</span>
+							<a href="#">亚胜电脑科技</a>
+							<div class="tch-to-talk" style="margin: 0px 0 0 10px;">
+								<img src="images/tch-to-talk.png" />
+							</div>
+						</td>
+						<td style="width:121px;">单价(元)</td>
+						<td style="width:121px;">数量</td>
+						<td style="width:262px;">服务方式</td>
+						<td style="width:120px;">合计（元）</td>
+					</tr>
+				</thead>
+				<tr class="main-tr">
+					<td class="firstpic">
+						<img  class="firstpic-img" src="http://p0.qhimg.com/t011dd8df4fd4991ee8.jpg">
+						<div class="pic-r-desc">
+							<p class="pic-r-tit"><a href="#">手机数据恢复（支持远程）</a></p>
+						</div>
+					</td>
+					<td>
+						<p style="font-size: 14px;">优惠价:<a id="dj">200.00</a></p>
+						<p>门店价:<del>250.00</del></p>
+						
+					</td>
+					<td>
+						<button id="Jian">-<a class="Jian-ts">购买数量在1到<br/>1000之间</a></button>
+						<input type="text" style="width: 51px;" value="1" id="Mnum" maxlength="4" onkeyup="checkIntInput(this,1,1000)">
+						<button id="Ja">+</button>
+					</td>
+					<td>
+						<select name="o_server_method" id="serviceMethod" style="height:20px;overflow:hidden;width:120px;margin-left: 60px;" errmsg="请选择服务方式">
+							<option value="" >请选择  </option>
+							<option value="1">上门服务￥30.00</option>
+							<option value="2">到店维修  </option>
+						</select>
+						<p style="margin-top: 10px;">店址：龙岗中心城爱联嶂背A103亚胜电脑...<a href="">地图</a></p>
+					</td>
+					<td>
+						<div class="torder-cath">
+							200
+						</div>
+						<span class="pay-online-tip">在线支付专享</span>
+					</td>
+				</tr>
+			</table>
+			<table style="margin-top:10px">
+				<tr>
+					<td class="torder-phone"><span style="color: red;">*</span> 您的手机号码:</td>
+					<td ><input type="text" class="torder-phone-inp" placeholder="请填写11位常用的手机号" maxlength="11"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="torder-miss">购买成功后您将收到服务激活码短信，凭此联系商家进行消费</td>
+				</tr>
+				<tr>
+					<td class="pay-fs"><span style="color: red;">*</span> 支付方式:</td>
+					<td>
+						<span class="border border-active">
+							<p class="pft14">在线支付到360</p>
+							<p class="pft13">360担保，7天内无效可申请退款</p>
+							<span class="bao">360推荐</span>
+						</span>
+						<span class="border  dmfk"><h3>免费登记，当面付款</h3></span>
+					</td>
+				</tr>
+				<tr class="torder-wx-ct">
+					<td></td>
+					<td class="torder-ta-inps">
+						<input type="radio" style="margin-left: 0;" checked="checked">支付宝
+						<input type="radio"/>网银支付
+						<input type="radio"/>银联快捷支付
+						<input type="radio"/>手机支付宝
+						<input type="radio"/>微信支付
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button class="torder-ta-btn"></button>
+						<a href="#" class="promise-link">360同城帮声明："修不好，全额退款！"</a>
+					</td>
+				</tr>
+			</table>
+		</div>	
+
+		<!--以下是页面页脚-->
+		<div class="index-foot clear">
+		 <div class="footWarp">
+			<div class="foot-nav">
+				<ul class="foot-nav-ul">
+					<li>
+						<span class="foot-nav-li1"></span>
+						<div class="foot-nav-liR">
+							<h3>购物指南</h3>
+							<p>购物流程</p>
+							<p>用户注册</p>
+							<p>帮助文档</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li2"></span>
+						<div class="foot-nav-liR">
+							<h3>支付方式</h3>
+							<p>在线支付</p>
+							<p>当面付款</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li3"></span>
+						<div class="foot-nav-liR">
+							<h3>售后服务</h3>
+							<p>投诉建议</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li4"></span>
+						<div class="foot-nav-liR">
+							<h3>特色保障</h3>
+							<p>360担保支付</p>
+						</div>
+					</li>
+					
+					<li>
+						<span class="foot-nav-li5"></span>
+						<div class="foot-nav-liR">
+							<h3>商家合作</h3>
+							<p><a href="#">加盟同城帮</a></p>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="foot-bottom">
+				<p style="padding:20px 10px 0 10px">客服电话：4000-399-360
+					&nbsp;&nbsp;&nbsp;&nbsp;投诉建议&nbsp;&nbsp;
+					<a>网站地图</a>
+				</p>
+				<p>Copyright © 2005-2016&nbsp;360.CN&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;360安全中心</p>
+				<p><a>京ICP备08010314号-19</a>&nbsp;&nbsp;&nbsp;&nbsp;京公网安备110000000006号</p>
+			</div>
+			
+		</div>		
+		</div>
+		<script src="js/torder.js"></script>
+	</body>
+</html>
